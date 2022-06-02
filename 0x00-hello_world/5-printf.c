@@ -5,12 +5,12 @@
 /*
  * main - Entry point
  *
- * description:Something
+ * description: Something
  *
  *    * Return: Always 0 (Success)
  *
  */
-
+                                                                             
 int main(void)
 
 {
