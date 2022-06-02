@@ -3,10 +3,9 @@
 
 
 /**
+ * main - Entry point
  *
- *  * main - Entry point
- *
- *   *
+ * *description:Something else
  *
  *    * Return: Always 0 (Success)
  *
