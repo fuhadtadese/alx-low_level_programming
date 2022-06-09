@@ -56,46 +56,46 @@ _putchar('\n');
 z =  m * 1;
 if (z == 0)
 {
-_putchar (48);
+return (0);
 }
 else if (z == 1 || z == -1)
 {
-_putchar (49);
+return (1);
 }
 else if (z == 2 || z == -2)
 {
-_putchar (50);
+return (2);
 }
 else if (z == 3 || z == -3)
 {
-_putchar (51);
+return (3);
 }
 else if (z == 4 || z == -4)
 {
-_putchar (52);
+return (4);
 }
 else if (z == 5 || z == -5)
 {
-_putchar (53);
+return (5);
 }
 else if (z == 6 || z == -6)
 {
-_putchar (54);
+return (6);
 }
 else if (z == 7 || z == -7)
 {
-_putchar (55);
+return (7);
 }
 else if (z == 8 || z == -8)
 {
-_putchar (56);
+return (8);
 }
 else if (z == 9 || z == -9)
 {
-_putchar (57);
+return (9);
 } else
 {
-_putchar('\n');
+return('\n');
 }
 
 }
