@@ -51,7 +51,7 @@ else if (m == 9 || -9)
 _putchar (57);
 } else
 {
-_putchar('\n')
+_putchar('\n');
 }
 return (m * 1);
 }
