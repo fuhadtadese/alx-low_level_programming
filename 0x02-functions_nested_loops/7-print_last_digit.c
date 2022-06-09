@@ -8,39 +8,41 @@
  */
 int print_last_digit(int n)
 {
-if (n == 0)
+int m;
+m = n % 10;
+if (m == 0)
 {
 _putchar (48);
 }
-else if (n == 1)
+else if (m == 1)
 {
 _putchar (49);
 }
-else if (n == 2)
+else if (m == 2)
 {
 _putchar (50);
 }
-else if (n == 3)
+else if (m == 3)
 {
 _putchar (51);
 }
-else if (n == 4)
+else if (m == 4)
 {
 _putchar (52);
 }
-else if (n == 5)
+else if (m == 5)
 {
 _putchar (53);
 }
-else if (n == 6)
+else if (m == 6)
 {
 _putchar (54);
 }
-else if (n == 7)
+else if (m == 7)
 {
 _putchar (55);
 }
-else if (n == 8)
+else if (m == 8)
 {
 _putchar (56);
 }
@@ -48,5 +50,5 @@ else
 {
 _putchar (57);
 }
-return (n);
+return (m * 1);
 }
