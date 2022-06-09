@@ -2,15 +2,17 @@
 /**
  *_islower - return 0 if c  is lowercase
  *
- * return: 1 or 0 success
+ * Return: 1 or 0 success
  */
 int _islower(int c)
 {
+int c;
 if (c >= 97 && c <= 122)
 {
-return(1);
-} else{
-return(0);
+return (1);
+} else
+{
+return (0);
 }
 _putchar('\n');
 }
