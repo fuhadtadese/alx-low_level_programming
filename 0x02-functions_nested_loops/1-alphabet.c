@@ -9,7 +9,7 @@ void print_alphabet(void)
 int a = 97;
 do {
 _putchar(a++);
+} while (a < 123);
 _putchar('\n');
-} while(a < 123);
 }
 
