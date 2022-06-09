@@ -2,6 +2,10 @@
 /**
  *add - adds two integers
  *
+ *@a: argument
+ *
+ *@b: argument
+ *
  * Return: always integer
  */
 int add(int a, int b)
