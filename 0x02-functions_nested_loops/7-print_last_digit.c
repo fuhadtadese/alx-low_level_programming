@@ -4,7 +4,7 @@
  *
  *@n: arguement to function
  *
- * return: last digit.
+ * Return: last digit.
  */
 int print_last_digit(int n)
 {
@@ -53,5 +53,49 @@ _putchar (57);
 {
 _putchar('\n');
 }
-return (m * 1);
+z =  m * 1;
+if (z == 0)
+{
+_putchar (48);
+}
+else if (z == 1 || z == -1)
+{
+_putchar (49);
+}
+else if (z == 2 || z == -2)
+{
+_putchar (50);
+}
+else if (z == 3 || z == -3)
+{
+_putchar (51);
+}
+else if (z == 4 || z == -4)
+{
+_putchar (52);
+}
+else if (z == 5 || z == -5)
+{
+_putchar (53);
+}
+else if (z == 6 || z == -6)
+{
+_putchar (54);
+}
+else if (z == 7 || z == -7)
+{
+_putchar (55);
+}
+else if (z == 8 || z == -8)
+{
+_putchar (56);
+}
+else if (z == 9 || z == -9)
+{
+_putchar (57);
+} else
+{
+_putchar('\n');
+}
+
 }
