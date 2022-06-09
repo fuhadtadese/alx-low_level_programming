@@ -2,11 +2,12 @@
 /**
  *add - adds two integers
  *
- * return: always integer
+ * Return: always integer
  */
 int add(int a, int b)
 {
-int a, b, c;
+int c;
 c = a + b;
-return(c);
+return (c);
+
 }
