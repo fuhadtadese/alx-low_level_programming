@@ -4,7 +4,7 @@
  *
  *@n: argument for function
  *
- * return: always positive
+ * Return: always positive
  */
 int _abs(int n)
 {
